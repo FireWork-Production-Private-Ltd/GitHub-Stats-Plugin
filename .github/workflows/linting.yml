@@ -7,8 +7,6 @@ jobs:
     runs-on: self-hosted
     steps:
     - uses: actions/checkout@v2
-      with:
-        ref: ${{ github.event.pull_request.head.sha }}
 
     - name: Run Lint on JS and CSS
       uses: docker://ghcr.io/rtcamp/action-js-css-lint:v0.0.2
