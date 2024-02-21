@@ -13,8 +13,4 @@ jobs:
     - name: Run Lint on JS and CSS
       uses: docker://ghcr.io/rtcamp/action-js-css-lint:v0.0.2
       env:
-        GH_TOKEN: ${{ secrets.FIREWORK_BOT_TOKEN }}
-
-    - name: Cleanup
-      if: ${{ always() }}
-      uses: rtCamp/action-cleanup@master
+        GH_TOKEN: ${{ secrets.TRAINEE_RTBOT_TOKEN }}
