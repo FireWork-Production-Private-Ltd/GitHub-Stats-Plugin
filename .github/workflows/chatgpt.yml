@@ -16,9 +16,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.FIREWORK_BOT_OPENAI_TOKEN }}
-          # Optional
-          OPENAI_API_ENDPOINT: https://api.openai.com/v1
-          MODEL: gpt-3.5-turbo
-          PROMPT: Please check if there are any confusions or irregularities in the following code diff
-          max_tokens: 10000
-          MAX_PATCH_LENGTH: 10000
