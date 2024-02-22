@@ -1,0 +1,130 @@
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/rt-movies-block/editor.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+:root {
+  --primary-color: #1f1f1f;
+  --secondary-color: #2a2a2a;
+  --light-color: #494949;
+  --white-spe-color: #fff;
+  --dark-red-color: #d13223;
+  --light-red-color: #e46d62;
+  --light-font-color: rgba(7, 3, 3, 0.5);
+  --light-spe-color: rgba(255, 255, 255, 0.5);
+  --person-color: #ddd;
+}
+
+.custom-block-card-item a {
+  text-decoration: none;
+  line-height: 0;
+}
+
+.custom-block-card {
+  display: flex;
+  margin-top: 48px;
+  flex-direction: column;
+}
+
+.custom-block-card-container {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(20%, max(383px, 20%)), 1fr));
+  justify-items: center;
+  row-gap: 32px;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+}
+
+.custom-block-card-item {
+  width: 100%;
+  max-width: max(450px, min(240px, 30%));
+  overflow: hidden;
+  font-family: Heebo, cursive;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-block-card-item .custom-block-card-image {
+  width: 100%;
+  height: 280px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.custom-block-card-item .custom-block-card-detail {
+  padding: 24px 16px;
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  color: var(--light-spe-color);
+  font-weight: 400;
+  font-family: Heebo, sans-serif;
+}
+
+.custom-block-card-item .custom-block-card-title {
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--white-spe-color);
+  margin: 0;
+}
+
+.custom-block-card-info span {
+  color: var(--white-spe-color);
+  font-weight: 500;
+}
+
+.custom-block-card-container p {
+  line-height: normal;
+  margin: 2px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .custom-block-card-container {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(24%, max(383px, 20%)), 1fr));
+    justify-items: center;
+    row-gap: 32px;
+    -moz-column-gap: 32px;
+         column-gap: 32px;
+  }
+}
+/** Media query for the mobile view */
+@media screen and (max-width: 768px) {
+  .custom-block-container {
+    padding: 0;
+  }
+  .custom-block-card-item {
+    max-width: unset;
+    width: 100%;
+    overflow: hidden;
+  }
+  .custom-block-card-item .custom-block-card-image {
+    height: 230px;
+  }
+  .custom-block-card-item .custom-block-card-detail {
+    padding: 15px;
+  }
+  .custom-block-card-item {
+    font-size: 8px;
+    line-height: 12px;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .custom-block-card-container {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(50%, max(383px, 20%)), 1fr));
+    justify-items: center;
+    row-gap: 32px;
+    -moz-column-gap: 32px;
+         column-gap: 32px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map*/

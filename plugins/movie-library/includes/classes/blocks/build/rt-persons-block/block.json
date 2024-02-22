@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "person/rt-persons-block",
+  "version": "0.1.0",
+  "title": "Rt Persons Block",
+  "category": "text",
+  "icon": "admin-users",
+  "description": "Display list of Persons",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "numberOfPersons": {
+      "type": "number",
+      "default": 5
+    },
+    "personCareer": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "textdomain": "movie-library",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

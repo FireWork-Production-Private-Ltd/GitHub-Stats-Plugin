@@ -1,0 +1,182 @@
+/**
+ * Theme Name:        Screen Time
+ * Theme URI:         https://rtcamp.com/
+ * Description:       A Screen Time theme.
+ * Version:           1.0.0
+ * Author:            rtCamp
+ * Author URI:        https://rtcamp.com/
+ * License:           GNU General Public License v2.0 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:       screen-time
+ */
+
+/**
+ * Import the fonts.
+ * It contains common styles for the theme.
+ */
+@import url(https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap);
+
+:root {
+	--primary-color: #1f1f1f;
+	--secondary-color: #2a2a2a;
+	--light-color: #494949;
+	--white-spe-color: #fff;
+	--dark-red-color: #d13223;
+	--light-red-color: #e46d62;
+	--light-font-color: rgba(7, 3, 3, 0.5);
+	--light-spe-color: rgba(255, 255, 255, 0.5);
+	--person-color: #ddd;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--primary-color);
+}
+
+.hover-btn {
+	color: var(--white-spe-color);
+	transition: all 0.1s ease-in-out;
+}
+
+.hover-btn:hover {
+	background-color: var(--dark-red-color);
+}
+
+.container-heading {
+	color: var(--white-spe-color);
+	font-family: "Big Shoulders Display", sans-serif;
+	display: flex;
+	gap: 12px;
+}
+
+/* Home page Title */
+.container-heading .container-heading-line {
+	width: 4px;
+	height: 40px;
+	background-color: var(--dark-red-color);
+}
+
+.container-heading .container-heading-title {
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 40px;
+}
+
+/* Archive page Title */
+.container-heading .container-heading-title-archive {
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 72px;
+}
+
+.container-heading .container-heading-line-archive {
+	width: 4px;
+	height: 72px;
+	background-color: var(--dark-red-color);
+}
+
+.no-movie-found-title {
+	font-family: Heebo, sans-serif;
+	font-weight: 300;
+	color: var(--dark-red-color);
+}
+
+.custom-container {
+	padding: 120px 112px 0;
+}
+
+.single-page-pagination .nav-links {
+	padding: 120px 112px 0;
+	display: flex;
+	justify-content: space-between;
+	color: var(--white-spe-color);
+	font-family: Heebo, sans-serif;
+	font-size: 18px;
+}
+
+.single-page-pagination a {
+	color: var(--light-spe-color);
+}
+
+.single-page-pagination .next-link {
+	text-align: right;
+}
+
+.single-page-pagination .single-pagination-title {
+	color: var(--white-spe-color);
+}
+
+.error-container {
+	text-align: center;
+	color: var(--white-spe-color);
+	font-family: Heebo, sans-serif;
+}
+
+.error-container h1 {
+	font-size: 8em;
+	margin: 0;
+	font-family: "Big Shoulders Display", sans-serif;
+}
+
+.error-container p {
+	margin: 10px 0;
+	font-size: 1.5em;
+}
+
+.error-container a button {
+	background-color: var(--dark-red-color);
+	color: var(--white-spe-color);
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: 2px solid var(--dark-red-color);
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.error-container a button:hover {
+	border: 2px solid var(--dark-red-color);
+	background-color: transparent;
+	color: var(--dark-red-color);
+}
+
+@media screen and (max-width: 768px) {
+
+	/* Home page Title */
+	.container-heading .container-heading-line {
+		width: 4px;
+		height: 32px;
+	}
+
+	.container-heading .container-heading-title {
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	/* Archive page Title */
+	.container-heading .container-heading-title-archive {
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+	.container-heading .container-heading-line-archive {
+		width: 4px;
+		height: 40px;
+	}
+
+	.custom-container,
+	.single-page-pagination .nav-links {
+		padding: 64px 24px 0;
+	}
+}
+
+input[type="checkbox"] {
+	width: 24px;
+	height: 24px;
+}

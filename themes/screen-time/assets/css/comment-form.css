@@ -1,0 +1,156 @@
+.comment-container {
+	padding: 96px 320px 0;
+}
+
+.comment-notes,
+.comment-form-cookies-consent {
+	color: var(--white-spe-color);
+	font-family: Heebo, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+	margin-top: 24px;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.comment-form-name-email {
+	display: flex;
+	gap: 32px;
+}
+
+.comment-form-comment,
+.comment-form-url {
+	display: flex;
+	flex-direction: column;
+}
+
+.comment-form-author,
+.comment-form-email {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.comment-form-comment label,
+.comment-form-url label,
+.comment-form-author label,
+.comment-form-email label {
+	color: var(--white-spe-color);
+	font-family: Heebo, sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 500;
+	margin: 32px 0 16px 0;
+}
+
+.comment-form-comment textarea {
+	width: 100%;
+	height: 143px;
+	font-size: 16px;
+	background-color: var(--secondary-color);
+	border: 1px solid var(--white-spe-color);
+	color: var(--white-spe-color);
+}
+
+.comment-form-url input,
+.comment-form-author input,
+.comment-form-email input {
+	width: 100%;
+	height: 48px;
+	font-size: 16px;
+	background-color: var(--secondary-color);
+	border: 1px solid var(--white-spe-color);
+	color: var(--white-spe-color);
+}
+
+.comment-form-cookies-consent input[type="checkbox"]::before {
+	background-color: var(--secondary-color);
+}
+
+.form-submit {
+	margin-top: 40px;
+}
+
+.form-submit .submit {
+	color: var(--white-spe-color);
+	font-family: Heebo, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	background-color: var(--dark-red-color);
+	border-radius: 24px;
+	padding: 16px 32px;
+	border: none;
+}
+
+.logged-in-as {
+	color: var(--white-spe-color);
+	font-family: Heebo, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+
+	.comment-container {
+		padding: 48px 24px 0;
+	}
+
+	.comment-notes,
+	.comment-form-cookies-consent label {
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	.comment-form-comment label,
+	.comment-form-url label,
+	.comment-form-author label,
+	.comment-form-email label {
+		font-size: 14px;
+		margin: 24px 0 8px 0;
+	}
+
+	.comment-form-comment textarea {
+		height: 95px;
+	}
+
+	.comment-form-url input,
+	.comment-form-author input,
+	.comment-form-email input {
+		width: 100%;
+		height: 40px;
+		font-size: 16px;
+		background-color: var(--secondary-color);
+		border: 1px solid var(--white-spe-color);
+	}
+
+	.comment-form-name-email {
+		display: grid;
+		gap: 0;
+	}
+
+	.comment-form-author,
+	.comment-form-email {
+		display: grid;
+		flex-direction: column;
+		flex: 1;
+	}
+
+	.form-submit .submit {
+		font-size: 14px;
+		border-radius: 24px;
+		width: 327px;
+		padding: 8px 24px;
+		border: none;
+	}
+
+	.comment-notes,
+	.comment-form-cookies-consent {
+		margin-top: 16px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 6px;
+	}
+}

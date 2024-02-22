@@ -1,0 +1,25 @@
+.movie-data-table {
+	border-collapse: collapse;
+	width: 100%;
+	text-align: left;
+}
+
+.movie-data-table-poster {
+	width: 120px;
+	height: 150px;
+}
+
+.movie-data-info p {
+	font-size: 16px;
+	margin: 7px 0;
+}
+
+.movie-data-image {
+	text-align: center;
+}
+
+.upcoming-movie-widget {
+	max-height: 500px;
+	overflow-y: scroll;
+
+}

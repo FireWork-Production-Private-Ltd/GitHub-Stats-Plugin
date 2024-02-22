@@ -1,0 +1,37 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "movie/rt-movies-block",
+  "version": "0.1.0",
+  "title": "Rt Movies Block",
+  "category": "text",
+  "icon": "editor-video",
+  "description": "Display list of movies",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "numberOfMovies": {
+      "type": "number",
+      "default": 5
+    },
+    "movieGenre": {
+      "type": "number",
+      "default": 0
+    },
+    "movieLabel": {
+      "type": "number",
+      "default": 0
+    },
+    "movieLanguage": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "textdomain": "movie-library",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

@@ -1,0 +1,247 @@
+/**
+ * Home page styles.
+ */
+
+.person-archive-main {
+	margin-top: 120px;
+}
+
+.person-archive-container {
+	padding: 0 112px;
+}
+
+.person-card-item {
+	display: flex;
+	background-color: var(--secondary-color);
+}
+
+.person-card-image {
+	width: 153px;
+	height: 100%;
+	display: flex;
+	object-fit: cover;
+}
+
+.person-cards {
+	padding-top: 80px;
+}
+
+.person-cards-container-archive {
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(min(50%, max(383px, 40%)), 2fr));
+	row-gap: 32px;
+	column-gap: 32px;
+}
+
+.person-card-detail {
+	padding: 32px 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.person-card-title {
+	color: var(--white-spe-color);
+	font-family: "Big Shoulders Display", sans-serif;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 40px;
+}
+
+.person-card-date {
+	color: var(--light-spe-color);
+	font-family: Heebo, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.person-card-exert {
+	color: var(--white-spe-color);
+	font-family: Heebo, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.person-view-all {
+	color: var(--light-red-color);
+	font-family: Heebo, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.person-view-all .star-icon {
+	width: 16px;
+	height: 16px;
+}
+
+.load-more-container {
+	padding-top: 56px;
+	display: flex;
+	justify-content: center;
+}
+
+.load-more-container button {
+	color: var(--white-spe-color);
+	border: 1px solid var(--white-spe-color);
+	padding: 16px 40px;
+	border-radius: 99px;
+	font-family: Heebo, sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	background-color: transparent;
+}
+
+.load-more-container button:hover {
+	color: var(--light-red-color);
+	border: 1px solid var(--light-red-color);
+}
+
+.person-card-item-mobile {
+	display: none;
+	background-color: var(--secondary-color);
+	flex-direction: column;
+}
+
+.person-card-first-part {
+	display: flex;
+}
+
+.first-part-details {
+	padding: 12px;
+}
+
+@media screen and (max-width: 1200px) {
+
+	.person-cards-container-archive {
+		padding: 0;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(min(50%, max(383px, 20%)), 2fr));
+		justify-items: center;
+		row-gap: 32px;
+		column-gap: 32px;
+	}
+
+	.person-card-item {
+		display: none;
+	}
+
+	.person-card-item-mobile {
+		display: block;
+	}
+}
+
+/** Media query for the mobile view */
+@media screen and (max-width: 768px) {
+
+	.person-cards-container {
+		padding-bottom: 32px;
+		display: grid;
+		grid-template-columns: unset;
+		grid-auto-flow: column;
+		grid-auto-columns: max(156px, min(200px, 50% - 8px));
+		overflow-x: auto;
+		column-gap: 16px;
+	}
+
+	.person-card-item {
+		max-width: unset;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.person-card-image {
+		width: 72px;
+		height: 105px;
+		display: flex;
+		object-fit: cover;
+	}
+
+	.person-card-item .person-card-image {
+		height: 167px;
+	}
+
+	.person-card-detail {
+		padding: 12px;
+	}
+
+	.person-card-item .person-card-detail {
+		padding: 8px;
+		column-gap: 16px;
+		row-gap: 12px;
+	}
+
+	.person-card-title {
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	.person-card-item .person-card-title {
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	/** Trending persons */
+	.person-archive-container {
+		padding: 0 24px;
+	}
+
+	/* Archive person container */
+	.person-cards-container-archive {
+		display: grid;
+		grid-auto-flow: row;
+		grid-template-columns: repeat(auto-fill, minmax(min(50%, max(383px, 20%)), 2fr));
+		row-gap: 16px;
+	}
+
+	.person-cards {
+		padding-top: 48px;
+	}
+
+	.person-card-date {
+		font-size: 10px;
+		line-height: 16px;
+		margin-top: 16px;
+	}
+
+	.person-card-exert {
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+	.person-view-all {
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	.person-view-all .star-icon {
+		width: 14px;
+		height: 14px;
+	}
+
+	.load-more-container {
+		padding-top: 40px;
+	}
+
+	.load-more-container button {
+		text-align: center;
+		padding: 8px 24px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+}
