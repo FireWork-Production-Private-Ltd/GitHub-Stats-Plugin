@@ -1,0 +1,17 @@
+{
+    "name": "codespace/github-stats",
+    "description": "github stats plugin",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Codespace\\GithubStats\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Utsav Patel",
+            "email": "75293077+up1512001@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
