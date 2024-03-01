@@ -10,3 +10,4 @@ class Example_file_phpcs_fail{
     }
 
 }
+
