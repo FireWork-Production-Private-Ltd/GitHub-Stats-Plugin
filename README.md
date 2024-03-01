@@ -1,0 +1,2 @@
+# GitHub-Stats-Plugin
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/14d3f8de0daf424e87f4b2727fa73670)](https://app.codacy.com/gh/FireWork-Production-Private-Ltd/GitHub-Stats-Plugin?utm_source=github.com&utm_medium=referral&utm_content=FireWork-Production-Private-Ltd/GitHub-Stats-Plugin&utm_campaign=Badge_Grade)
