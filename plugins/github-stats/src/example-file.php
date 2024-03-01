@@ -1,18 +1,31 @@
 <?php
+
 /**
  * Simple Namespace Example
- * 
+ *
  * @package GithubStats
  */
 
 namespace GithubStats;
 
-class ExampleFile {
-    public function __construct() {
-        add_action( 'init', [ $this, 'init' ] );
+/**
+ * Example File
+ */
+class ExampleFile
+{
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        add_action('init', array( $this, 'init' ));
     }
 
-    public function init() {
-        echo "Hello World!";
+    /**
+     * Init
+     */
+    public function init()
+    {
+        echo 'Hello World!';
     }
 }

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Plugin Name: Github Stats
  * Description: A plugin to display Github stats
@@ -7,6 +8,8 @@
  * Author URI: https://github.com/up1512001, https://github.com/renishsurani
  * License: GPL2
  * Keywords: github, stats
+ *
+ * @package GithubStats
  */
 
 namespace GithubStats;
