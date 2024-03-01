@@ -11,7 +11,3 @@
  *
  * @package GithubStats
  */
-
-namespace GithubStats;
-
-$example = new ExampleFile();
