@@ -1,17 +1,17 @@
 {
-    "name": "movie-library",
+    "name": "Github Stats",
     "version": "1.0.0",
-    "description": "Movie library assignment",
+    "description": "GitHub Stats Plugin",
     "author": "rtCamp",
     "license": "GPL-2.0-or-later",
     "keywords": [],
-    "homepage": "https://github.com/rtCamp/movie-library-assignment#readme",
+    "homepage": "https://github.com/FireWork-Production-Private-Ltd/GitHub-Stats-Plugin#readme",
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/rtCamp/movie-library-assignment.git"
+      "url": "git+https://github.com/FireWork-Production-Private-Ltd/GitHub-Stats-Plugin.git"
     },
     "bugs": {
-      "url": "https://github.com/rtCamp/movie-library-assignment/issues"
+      "url": "https://github.com/FireWork-Production-Private-Ltd/GitHub-Stats-Plugin/issues"
     },
     "devDependencies": {
       "@wordpress/eslint-plugin": "^13.6.0",
