@@ -1,1 +1,8 @@
 themes/twentytwentytwo
+themes/twentytwentytwo
+themes/twentytwentythree
+node_modules
+plugins/github-stats/vendor
+plugins/github-stats/node_modules
+plugins/github-stats/composer.lock
+plugins/github-stats/package-lock.json
