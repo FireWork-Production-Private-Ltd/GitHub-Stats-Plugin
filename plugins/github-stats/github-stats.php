@@ -14,7 +14,7 @@
  *
  * @category Extension
  * @package  GithubStats
- * @author   FW <GitHub-Stats-Plugin.FireWork-Production-Private-Ltd.github.com>
+ * @author   GS-FW <GitHub-Stats-Plugin.FireWork-Production-Private-Ltd.github.com>
  * @license  MIT https://opensource.org/license/mit
  * @link     https://github.com/FireWork-Production-Private-Ltd/GitHub-Stats-Plugin
  */
