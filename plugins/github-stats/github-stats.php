@@ -4,10 +4,17 @@
  * Plugin Name: Github Stats
  * Description: A plugin to display Github stats
  * Version: 1.0
- * Author: Utsav Patel, Renish Surani
- * Author URI: https://github.com/up1512001, https://github.com/renishsurani
+ * php Version: 7.0
+ * Author: Utsav Patel
+ * Author URI: https://github.com/up1512001
+ * Author: Renish Surani
+ * Author URI: https://github.com/renishsurani
  * License: GPL2
  * Keywords: github, stats
  *
- * @package GithubStats
+ * @category Extension
+ * @package  GithubStats
+ * @author   GS-FW <GitHub-Stats-Plugin.FireWork-Production-Private-Ltd.github.com>
+ * @license  MIT https://opensource.org/license/mit
+ * @link     https://github.com/FireWork-Production-Private-Ltd/GitHub-Stats-Plugin
  */
