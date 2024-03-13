@@ -18,4 +18,3 @@
  * @license  MIT https://opensource.org/license/mit
  * @link     https://github.com/FireWork-Production-Private-Ltd/GitHub-Stats-Plugin
  */
-
