@@ -4,8 +4,8 @@
  * Description: A plugin to display Github stats
  * Version: 1.0
  * Requires PHP: 7.0
- * Author: Utsav Patel
- * Author URI: https://github.com/up1512001
+ * Author: Utsav Patel, Renish Surani
+ * Author URI: https://github.com/up1512001, https://github.com/renishsurani
  * License: GPL2
  * Keywords: github, stats
  */
