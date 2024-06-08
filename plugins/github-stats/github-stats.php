@@ -155,6 +155,9 @@ function display_github_profile() {
         <?php endif; ?>
         <h2><?php echo $profile['name']; ?> (<?php echo $profile['login']; ?>)</h2>
         <p><?php echo $profile['bio']; ?></p>
+        <p>Company: <?php echo $profile['company']; ?></p>
+        <p>Location: <?php echo $profile['location']; ?></p>
+        <p>Email: <?php echo $profile['email']; ?></p>
         <p>Followers: <?php echo $profile['followers']; ?></p>
         <p>Following: <?php echo $profile['following']; ?></p>
             <?php
